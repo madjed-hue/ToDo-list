@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="style.css">
+  <title>ToDo List</title>
+</head>
+<body>
+    <div class="todo-container">
+      <div class="add-task">
+        <input type="text">
+        <span class="plus">+</span>
+      </div>
+      <div class="tasks-content">
+        <span class="no-tasks-message">No Tasks To Show</span>
+      </div>
+    </div>
+    <div class="task-stats">
+      <div class="tasks-count">
+        Tasks <span>0</span>
+      </div>
+      <div class="tasks-completed">
+        Completed <span>0</span>
+      </div>
+    </div>
+    <div class="tasks-manager">
+      <div class="delete-all-tasks">
+        <span id="delete-all">Delete All</span>
+      </div>
+      <div class="finish-all-tasks">
+        <span id="finish-all">Finish All</span>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
